@@ -1,0 +1,33 @@
+# Version: 8.10.1.64 (e6ebd18)
+# [first argument, ignore] # /Users/ltomazeli/Downloads/Tasky/iOS_Starter/TaskyiOS/bin/iPhoneSimulator/Debug/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.10.1.64/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/ltomazeli/Downloads/Tasky/iOS_Starter/TaskyiOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--executable \
+	Tasky \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/ltomazeli/Downloads/Tasky/iOS_Starter/TaskyiOS/bin/iPhoneSimulator/Debug/Tasky.app \
+	-r \
+	/Users/ltomazeli/Downloads/Tasky/iOS_Starter/Tasky.Core/bin/Debug/Tasky.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/MonoTouch.Dialog-1.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	8.3 \
+	-targetver \
+	3.1 \
+	--abi=i386 \
+	/Users/ltomazeli/Downloads/Tasky/iOS_Starter/TaskyiOS/bin/iPhoneSimulator/Debug/Tasky.exe \
